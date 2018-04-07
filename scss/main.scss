@@ -60,6 +60,11 @@ body {
     margin-top: 0px;
     font-weight: 200;
     font-size: 42px;
+
+    @media screen and (min-width: $tablet-screen ){
+      font-size: 52px;
+    }
+
   }
 
   .header__btn{
